@@ -1,0 +1,16 @@
+#include <iostream>
+
+/*
+ * This program displays a haiku about an ideal
+ * autumn morning using different ways to provide
+ * output in the C++ programming language, along 
+ * with authorship information.
+*/
+
+int main(){
+    std::cout << "A crisp morning breeze.\n";
+    std::cout << "Golden leaves fall silently,\n";
+    std::cout << "Nature whispers peace." << std::endl;
+    std::cout << "A haiku by Viplav Nagpal, 2025." << std::endl;
+    return 0;
+}
