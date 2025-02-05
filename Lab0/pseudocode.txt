@@ -1,0 +1,5 @@
+Name: Viplav Nagpal
+
+1. Randomly assign heads and tails to player Alpha and player Beta.
+2. Toss a coin.
+3. Winner goes first
