@@ -1,0 +1,34 @@
+#include <iostream>
+
+int main() {
+
+    //Defining Variables
+    int year1, year2;
+    int patients1, patients2;
+    const double charity_rate = 1375.61;
+    
+
+    //Taking inputs
+    std::cout << "Enter the first year: ";
+    std::cin >> year1;
+    std::cout << "Enter the number of patients we saw that year: ";
+    std::cin >> patients1;
+    std::cout << "Enter the second year: ";
+    std::cin >> year2;
+    std::cout << "Enter the number of patients we saw that year: ";
+    std::cin >> patients2;
+
+    //Calculating
+    double charity_1 = patients1 * charity_rate;
+    double charity_2 = patients2 * charity_rate;
+    double percentage_increase = ((patients2-patients1)*100.0)/patients1;
+
+    //Printing Outputs
+    std::cout << "In year " << year1 << ", our hospital issued " << charity_1 << " dollars of charity charges.\n";
+    std::cout << "In year " << year2 << ", our hospital issued " << charity_2 << " dollars of charity charges.\n";
+    std::cout << "Between " << year1 << " and " << year2 << ", there was a " << percentage_increase << "% increase in patients seen at our hospital." << std::endl;
+
+    return 0;   
+}
+    
+
